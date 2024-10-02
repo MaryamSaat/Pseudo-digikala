@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" /><!--111-->
+    <title>فروشگاه اینترنتی دیجی کالا</title>
+    <link rel="stylesheet" href="./node_modules/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <!--#region make project-->
+    <div class="wrapper">
+      <!--#region header-->
+      <header>
+        <div class="header__top">
+          <div class="logo">
+            <img src="./public/images/logo/logo.svg" alt="" />
+          </div>
+          <div class="search">
+            <input type="text" name="search" placeholder="جستجو" />
+          </div>
+          <div class="login">
+            <a href="#" class="login__register">
+              <img src="./public/images/logo/enterlogo.svg" alt="" />
+              ورود
+              <span></span>
+              ثبت نام
+            </a>
+            <span class="login__line"></span>
+            <a href="#" class="login__cart">
+              <img src="./public/images/logo/cartlogo.svg" alt="" />
+            </a>
+          </div>
+        </div>
+        <div class="header__bottom">
+          <!--از اینجا اضافه کردم-->
+          <!--#region mega menu-->
+          <div class="menu">
+            <nav class="nav">
+              <div class="nav__item">
+                <a href="#" class="nav__item__link">
+                  <img src="./public/images/logo/bar.svg" alt="" />
+                  دسته بندی کالاها
+                </a>
+                <div class="submenu">
+                  <div class="submenu__item">
+                    <div class="submenu__item__right">
+                      <a href="#" class="submenu__item__right__link">
+                        <img src="./public/images/logo/megamenu/mobile.svg" alt="" />
+                        موبایل
+                      </a>
+                      <div class="submenu__item__right__submenu"></div>
+                    </div>
+                    <div class="submenu__item__right">
+                      <a href="#" class="submenu__item__right__link">
+                        <img src="./public/images/logo/megamenu/digital.svg" alt="" />
+                        کالای دیجیتال
+                      </a>
+                    </div>
+                    <div class="submenu__item__right">
+                      <a href="#" class="submenu__item__right__link">
+                        <img
+                          src="./public/images/logo/megamenu/furniture.svg"
+                          alt=""
+                        />
+                        خانه و آشپزخانه
+                      </a>
+                    </div>
+                    <div class="submenu__item__right">
+                      <a href="#" class="submenu__item__right__link">
+                        <img
+                          src="./public/images/logo/megamenu/electrical.svg"
+                          alt=""
+                        />
+                        لوازم برقی
+                      </a>
+                    </div>
+                    <div class="submenu__item__right">
+                      <a href="#" class="submenu__item__right__link">
+                        <img src="./public/images/logo/megamenu/clothing.svg" alt="" />
+                        مد و پوشاک
+                      </a>
+                    </div>
+                    <div class="submenu__item__right">
+                      <a href="#" class="submenu__item__right__link">
+                        <img src="./public/images/logo/megamenu/gold.svg" alt="" />
+                        طلا و نقره
+                      </a>
+                    </div>
+                    <div class="submenu__item__right">
+                      <a href="#" class="submenu__item__right__link">
+                        <img
+                          src="./public/images/logo/megamenu/cosmetics.svg"
+                          alt=""
+                        />
+                        آرایشی بهداشتی
+                      </a>
+                    </div>
+                    <div class="submenu__item__right">
+                      <a href="#" class="submenu__item__right__link">
+                        <img src="./public/images/logo/megamenu/medical.svg" alt="" />
+                        تجهیزات پزشکی وسلامت
+                      </a>
+                    </div>
+                    <div class="submenu__item__right">
+                      <a href="#" class="submenu__item__right__link">
+                        <img src="./public/images/logo/megamenu/sport.svg" alt="" />
+                        ورزش و سفر
+                      </a>
+                    </div>
+                    <div class="submenu__item__right">
+                      <a href="#" class="submenu__item__right__link">
+                        <img src="./public/images/logo/megamenu/car.svg" alt="" />
+                        خودروو موتورسیکلت
+                      </a>
+                    </div>
+                    <div class="submenu__item__right">
+                      <a href="#" class="submenu__item__right__link">
+                        <img src="./public/images/logo/megamenu/tools.svg" alt="" />
+                        ابزارآلات و تجهیزات
+                      </a>
+                    </div>
+                    <div class="submenu__item__right">
+                      <a href="#" class="submenu__item__right__link">
+                        <img src="./images/logo/megamenu/giftcard.svg" alt="" />
+                        کارت هدیه و گیفت کارت
+                      </a>
+                    </div>
+                    <div class="submenu__item__right">
+                      <a href="#" class="submenu__item__right__link">
+                        <img src="./public/images/logo/megamenu/glocery.svg" alt="" />
+                        کالای خوراکی و اساسی
+                      </a>
+                    </div>
+                    <div class="submenu__item__right">
+                      <a href="#" class="submenu__item__right__link">
+                        <img src="./public/images/logo/megamenu/baby.svg" alt="" />
+                        اسباب بازی، کودک و نوزاد
+                      </a>
+                    </div>
+                    <div class="submenu__item__right">
+                      <a href="#" class="submenu__item__right__link">
+                        <img src="./public/images/logo/megamenu/native.svg" alt="" />
+                        محصولات بومی و محلی
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </nav>
+          </div>
+          <!--#endregion mega menu-->
+          <div class="right">
+            <nav>
+              <span class="between"></span>
+              <div>
+                <a href="#" class="list">
+                  <img src="./public/images/logo/percent.svg" alt="" />
+                  شگفت انگیزها
+                </a>
+              </div>
+              <div>
+                <a href="#" class="list">
+                  <img src="./public/images/logo/basket.svg" alt="" />
+                  سوپرمارکت
+                </a>
+              </div>
+              <div>
+                <a href="#" class="list">
+                  <img src="./public/images/logo/giftcard.svg" alt="" />
+                  کارت هدیه
+                </a>
+              </div>
+              <div>
+                <a href="#" class="list">
+                  <img src="./public/images/logo/flame.svg" alt="" />
+                  پرفروش ترین ها</a
+                >
+              </div>
+              <div>
+                <a href="#" class="list">
+                  <img src="./public/images/logo/discount.svg" alt="" />
+                  تخفیف ها و پیشنهادها
+                </a>
+              </div>
+              <span class="between"></span>
+              <div><a href="#" class="list">سوالی دارید؟</a></div>
+              <div><a href="#" class="list">در دیجی کالابفروشید!</a></div>
+            </nav>
+          </div>
+          <div class="left">
+            <img src="./public/images/logo/location.svg" alt="" />
+            <p>لطفا شهر خود راانتخاب کنید</p>
+          </div>
+        </div>
+      </header>
+      <!--#endregion header-->
+    </div>
+    <!--#region story-->
+    <div class="story">
+      <div class="story__center">
+        <!-- Swiper -->
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="swiper-slide-item">
+                <img src="./public/images/story/slide1.jpg" alt="" />
+                <p>انواع لوازم التحریر انیمه زیرصدتومن</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="swiper-slide-item">
+                <img src="./public/images/story/slide2.jpg" alt="" />
+                <p>کیف و کفش و کمربند</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="swiper-slide-item">
+                <img src="./public/images/story/slide3.jpg" alt="" />
+                <p>کلی اسلایم خفن داریم</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="swiper-slide-item">
+                <img src="./public/images/story/slider4.jpg" alt="" />
+                <p>قمقمه شاخ گوزنی</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="swiper-slide-item">
+                <img src="./public/images/story/slider5.jpg" alt="" />
+                <p>بهتراز R50i ؟؟؟</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="swiper-slide-item">
+                <img src="./public/images/story/slider6.jpg" alt="" />
+                <p>یکی بخر،شش تا ببر!!!</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="swiper-slide-item">
+                <img src="./public/images/story/slider7.jpg" alt="" />
+                <p>این پلنرمخصوص دانش آموزاست...</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="swiper-slide-item">
+                <img src="./public/images/story/slider8.jpg" alt="" />
+                <p>پک هدیه به دوستاتون</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="swiper-slide-item">
+                <img src="./public/images/story/slider9.jpg" alt="" />
+                <p>کتابخونه بساز!</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="swiper-slide-item">
+                <img src="./public/images/story/slider10.jpg" alt="" />
+                <p>ماژیککک</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="swiper-slide-item">
+                <img src="./public/images/story/slider11.jpg" alt="" />
+                <p>R50i Vs Airpods Pro</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="swiper-slide-item">
+                <img src="./public/images/story/slider12.jpg" alt="" />
+                <p>هایلو ساعت هم داره ؟!</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="swiper-slide-item">
+                <img src="./public/images/story/slider13.jpg" alt="" />
+                <p>بهترین انتخاب ممکن</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="swiper-slide-item">
+                <img src="./public/images/story/slider14.jpg" alt="" />
+                <p>کرم رفع ترک پا سری کیت</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="swiper-slide-item">
+                <img src="./public/images/story/slider15.jpg" alt="" />
+                <p>چاقوی تیز کارهای روزانه ات</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="swiper-slide-item">
+                <img src="./public/images/story/slider16.jpg" alt="" />
+                <p>
+                  بادیگاردشو!!!
+                  <!-- &#128526 -->
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="swiper-slide-item">
+                <img src="./public/images/story/slider17.jpg" alt="" />
+                <p>سلولیت رو از بین میبره؟</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="swiper-slide-item">
+                <img src="./public/images/story/slider18.jpg" alt="" />
+                <p>جلیقه ابزار</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+      </div>
+    </div>
+    <!--#endregion story-->
+    <!--#region slider-->
+    <div class="slider">
+      <div class="swiper mySlider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="./public/images/slider/slider1.jpg" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./public/images/slider/slider2.jpg" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./public/images/slider/slider4.jpg" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./public/images/slider/slider5.jpg" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./public/images/slider/slider6.gif" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./public/images/slider/slider7.gif" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./public/images/slider/slider8.jpg" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./public/images/slider/slider9.jpg" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./public/images/slider/slider10.jpg" alt="" />
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+    <!--#endregion slider-->
+    <!--#region color-icons-->
+    <div class="color__icon">
+      <div class="color__icon__1">
+        <div class="coloricon1__child">
+          <img src="./public/images/coloricons/icon1.png" alt="" />
+          <p>دیجی کالا جت</p>
+        </div>
+        <div class="coloricon1__child">
+          <img src="./public/images/coloricons/icon2.png" alt="" />
+          <p>دریافت وام</p>
+        </div>
+        <div class="coloricon1__child">
+          <img src="./public/images/coloricons/icon3.png" alt="" />
+          <p>حراج استایل</p>
+        </div>
+        <div class="coloricon1__child">
+          <img src="./public/images/coloricons/icon4.png" alt="" />
+          <p>بازگشت به مدرسه</p>
+        </div>
+        <div class="coloricon1__child">
+          <img src="./public/images/coloricons/icon5.png" alt="" />
+          <p>تبلیغات فروشندگان</p>
+        </div>
+        <div class="coloricon1__child">
+          <img src="./public/images/coloricons/icon6.png" alt="" />
+          <p>جایزه خریداول</p>
+        </div>
+        <div class="coloricon1__child">
+          <img src="./public/images/coloricons/icon7.png" alt="" />
+          <p>سوپر مارکت پرتخفیف</p>
+        </div>
+        <div class="coloricon1__child">
+          <img src="./public/images/coloricons/icon8.png" alt="" />
+          <p>خرید چکی</p>
+        </div>
+        <div class="coloricon1__child">
+          <img src="./public/images/coloricons/icon9.png" alt="" />
+          <p>دیجی پلاس</p>
+        </div>
+        <div class="coloricon1__child">
+          <div class="coloricon1__subchild">
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+          </div>
+          <p>بیشتر</p>
+        </div>
+      </div>
+    </div>
+    <!--#endregion color-icons-->
+    <!--#region amazing-->
+    <div class="amazing">
+      <div class="amazing-center">
+        <div class="swiper myamazing">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide activeAmazing">
+              <a href="#">
+                <img
+                  class="swiper-slide-img-1"
+                  src="./public/images/logo/amazing/Amazingoffer.svg"
+                  alt=""
+                />
+                <div class="swiper-slide-clock">
+                  <div class="hours">03</div>
+                  <span>:</span>
+                  <div class="minuts">55</div>
+                  <span>:</span>
+                  <div class="seconds">59</div>
+                </div>
+                <img
+                  class="swiper-slide-img-2"
+                  src="./public/images/logo/amazing/smilypercent.svg"
+                  alt=""
+                />
+                <span>مشاهده همه </span>
+              </a>
+            </div>
+            <div class="swiper-slide">Slide 2</div>
+            <div class="swiper-slide">Slide 3</div>
+            <div class="swiper-slide">Slide 4</div>
+            <div class="swiper-slide">Slide 5</div>
+            <div class="swiper-slide">Slide 6</div>
+            <div class="swiper-slide">Slide 7</div>
+            <div class="swiper-slide">Slide 8</div>
+            <div class="swiper-slide">Slide 9</div>
+            <div class="swiper-slide">Slide 10</div>
+            <div class="swiper-slide">Slide 11</div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+      </div>
+    </div>
+    <!--#endregion amazing-->
+    <!--#endregion make project-->
+
+    <!--#region js -->
+    <script src="./node_modules/swiper/swiper-bundle.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 13.5,
+        spaceBetween: 0,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+    <script>
+      var swiper = new Swiper(".mySlider", {
+        spaceBetween: 0,
+        centeredSlides: true,
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".myamazing", {
+        slidesPerView: 8.2,
+        spaceBetween: 2,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+    <!--#endregion js-->
+  </body>
+</html>
